@@ -49,9 +49,9 @@ public class Main{
         SolveProblem.LanguageChoose();
         Thread.sleep(5000);
         SolveProblem.Java();
-        SolveProblem.ChooseEditor();
-        Thread.sleep(2000);
-        SolveProblem.SendSolution("Aruzhan");
+//        SolveProblem.ChooseEditor();
+//        Thread.sleep(2000);
+//        SolveProblem.SendSolution("Aruzhan");
     }
     @Test(priority = 2)
     public void FilteringProblems() throws InterruptedException {

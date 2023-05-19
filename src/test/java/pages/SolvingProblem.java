@@ -9,11 +9,11 @@ import org.openqa.selenium.support.PageFactory;
 public class SolvingProblem {
     WebDriver driver;
 
-    @FindBy(xpath = "//*[@id='__next']/div/div[2]/div[1]/div[1]/div[5]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/a")
+    @FindBy(xpath = "//*[@href='/problems/two-sum/']")
     WebElement Problem;
-    @FindBy(xpath = "//*[@id='editor']/div[3]/div[1]/div[1]/div")
+    @FindBy(xpath = "//button[contains(@id, 'listbox')]")
     WebElement LanguageBtn;
-    @FindBy(xpath = "//*[@id='headlessui-listbox-option-:r35:']/div")
+    @FindBy(xpath = "//div[text()='Java']")
     WebElement JavaBtn;
 
     @FindBy(xpath = "//*[@id='editor']/div[4]/div[1]/div/div/div[1]/div[2]/div[1]/div[4]/div[3]")
